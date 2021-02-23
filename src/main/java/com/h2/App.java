@@ -15,7 +15,7 @@ public class App
         return number *2;
     }
 
-    public static int add(int[] numbers) {
+    private static int add(int[] numbers) {
         int sum = 0;
         for (int x = 0; x < numbers.length; x++) {
             sum += numbers[x];
